@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:coverage": "jest --coverage --coverageReporters=text-summary | tee ./coverage.txt"
+    "test:asuna": "jest --ci --coverage | tee ./coverage.txt"
   },
   "devDependencies": {
     "jest": "^28.1.0"
