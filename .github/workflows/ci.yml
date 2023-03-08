@@ -28,4 +28,4 @@ jobs:
         uses: HelloYeew/asuna-jest-action@main
         with:
           ASUNA_UPLOAD_KEY: ${{ secrets.ASUNA_UPLOAD_KEY }}
-          COVERAGEPY_COMMAND: "npm run test:asuna"
+          JEST_COMMAND: "npm run test:asuna"
