@@ -1,0 +1,22 @@
+{
+  "name": "asuna-jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:coverage": "jest --coverage --coverageReporters=text-summary | tee ./coverage.txt"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "html"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
